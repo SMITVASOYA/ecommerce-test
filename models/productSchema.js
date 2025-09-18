@@ -16,6 +16,6 @@ productSchema.index({ price: 1, category: 1 });
 productSchema.index({ category: 1 });
 productSchema.index({ price: 1 });
 
-const Product = mongoose.model("users", productSchema);
+const Product = mongoose.model("products", productSchema);
 
 module.exports = Product;
